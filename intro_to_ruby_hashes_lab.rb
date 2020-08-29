@@ -1,5 +1,3 @@
-require pry 
-
 def new_hash
   hash = {}
 end
