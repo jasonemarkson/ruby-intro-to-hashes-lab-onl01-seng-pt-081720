@@ -1,3 +1,5 @@
+require pry 
+
 def new_hash
   hash = {}
 end
@@ -20,8 +22,10 @@ def monopoly_with_third_tier
 	monopoly = {
   :railroads => {
 	  :pieces => 4, 
-	  :names => "{}"
-	  }
+	  :names => {}
+	  
+    
+  }
 	  
 	} 
 
